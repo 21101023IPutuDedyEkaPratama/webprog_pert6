@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Tambah Data Mahasiswa</title>
+</head>
+<body>
+
+    <h3>Tambah Data Mahasiswa</h3>
+    <form action="dbinsertdatamhs.php" method="post">
+
+        NIM
+        <div>
+            <input type="text" name="txNIm">
+        </div>
+        NAMA
+        <div>
+            <input type="text" name="txNAMA">
+        </div>
+        Jenis Kelamin
+        <div>
+            <select name="txJK">
+                <option value="L">Laki-Laki</option>
+                <option value="P">Perempuan</option>
+            </select>
+        </div>
+        <div>
+            <input type="date" name="txTalag">
+        </div>
+        Jurusan
+        <div>
+            <select name="txJR">
+                <option value="MTI">MTI</option>
+                <option value="KAB">KAB</option>
+            </select>
+        </div>
+        Passcode
+        <div>
+            <input type="submit">Simpan Data<button></button>
+        </div>
+    </form>
+    
+</body>
+</html>
